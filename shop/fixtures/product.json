@@ -1,0 +1,62 @@
+[
+{
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+        "category": 1,
+        "name": "Dom camera",
+        "slug": "dom-camera",
+        "image": "products/2020/05/28/images_2.jpg",
+        "description": "Secure Your area by monitoring with a 360 view angle at best resolutions",
+        "price": "133.59",
+        "available": true,
+        "created": "2020-05-28T08:13:35.980Z",
+        "updated": "2020-05-28T14:20:59.166Z"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 2,
+    "fields": {
+        "category": 1,
+        "name": "4K Bullet CCTV Camera",
+        "slug": "4k-bullet-cctv-camera",
+        "image": "products/2020/05/28/images_1.jpg",
+        "description": "1080p HD Camera with a water proof capability",
+        "price": "99.25",
+        "available": true,
+        "created": "2020-05-28T08:15:54.848Z",
+        "updated": "2020-05-28T14:20:40.301Z"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 3,
+    "fields": {
+        "category": 2,
+        "name": "3S Gondola lifts",
+        "slug": "3s-gondola-lifts",
+        "image": "products/2020/05/28/images.jpg",
+        "description": "Experience the best means of transport from the sky.",
+        "price": "0.00",
+        "available": true,
+        "created": "2020-05-28T08:18:14.353Z",
+        "updated": "2020-05-28T14:15:34.463Z"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 4,
+    "fields": {
+        "category": 2,
+        "name": "City Center",
+        "slug": "city-center",
+        "image": "products/2020/05/30/blog2.jpg",
+        "description": "Cool vision arround the city",
+        "price": "268.51",
+        "available": true,
+        "created": "2020-05-30T05:36:02.221Z",
+        "updated": "2020-05-30T05:36:02.221Z"
+    }
+}
+]

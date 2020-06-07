@@ -1,0 +1,110 @@
+[
+{
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+        "post": 1,
+        "user": 1,
+        "body": "Thifgb is my comment",
+        "created": "2020-05-30T15:10:18.056Z",
+        "updated": "2020-05-30T15:10:18.056Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+        "post": 1,
+        "user": 1,
+        "body": "second comment",
+        "created": "2020-05-30T15:12:07.010Z",
+        "updated": "2020-05-30T15:12:07.011Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+        "post": 2,
+        "user": 1,
+        "body": "Wow",
+        "created": "2020-05-31T11:52:23.892Z",
+        "updated": "2020-05-31T11:52:23.893Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 4,
+    "fields": {
+        "post": 2,
+        "user": 1,
+        "body": "Wow",
+        "created": "2020-05-31T11:53:10.136Z",
+        "updated": "2020-05-31T11:53:10.136Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 5,
+    "fields": {
+        "post": 2,
+        "user": 1,
+        "body": "Wow",
+        "created": "2020-06-01T05:18:34.502Z",
+        "updated": "2020-06-01T05:18:34.503Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 6,
+    "fields": {
+        "post": 2,
+        "user": 1,
+        "body": "Wow",
+        "created": "2020-06-01T05:21:02.992Z",
+        "updated": "2020-06-01T05:21:02.992Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 7,
+    "fields": {
+        "post": 2,
+        "user": 1,
+        "body": "Wow",
+        "created": "2020-06-01T05:29:24.842Z",
+        "updated": "2020-06-01T05:29:24.843Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 8,
+    "fields": {
+        "post": 1,
+        "user": 2,
+        "body": "My orders Your orders on one place.  If you have any questions, please feel free to contact us, our customer service center is working for you 24/7.",
+        "created": "2020-06-02T15:47:26.022Z",
+        "updated": "2020-06-02T15:47:26.023Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 9,
+    "fields": {
+        "post": 1,
+        "user": 2,
+        "body": "My orders Your orders on one place.  If you have any questions, please feel free to contact us, our customer service center is working for you 24/7.",
+        "created": "2020-06-02T15:49:49.033Z",
+        "updated": "2020-06-02T15:49:49.034Z",
+        "active": true
+    }
+}
+]

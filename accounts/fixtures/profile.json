@@ -1,0 +1,42 @@
+[
+{
+    "model": "accounts.profile",
+    "pk": 1,
+    "fields": {
+        "user": 4,
+        "position": "CEO (Chief Administration Officer)",
+        "picture": "pictures/2020/06/01/charles.jpg",
+        "member": true
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 2,
+    "fields": {
+        "user": 3,
+        "position": "IT Officer",
+        "picture": "pictures/2020/06/01/JOSH.jpg",
+        "member": true
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 3,
+    "fields": {
+        "user": 5,
+        "position": "Business Administration Officer",
+        "picture": "pictures/2020/06/01/alex_1.jpg",
+        "member": true
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 4,
+    "fields": {
+        "user": 6,
+        "position": "Structural Engineer",
+        "picture": "pictures/2020/06/01/joyce.jpg",
+        "member": true
+    }
+}
+]

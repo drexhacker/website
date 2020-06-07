@@ -1,0 +1,44 @@
+{% extends 'shop/base.html' %}
+{% load dsg static %}
+{% block title %}
+About Us
+{% endblock %}
+{% block content %}
+<div id="all">
+      <div id="content">
+        <div class="container">
+          <div class="row">
+           
+            <div class="col-lg-3">
+              <!--
+              *** PAGES MENU ***
+              _________________________________________________________
+              -->
+              
+              <!-- *** PAGES MENU END ***-->
+              <div class="banner"><a href="/"><img src="{% static 'shop/img/banner.jpg' %}" alt="" class="img-fluid"></a></div>
+            </div><center>
+            <div class="col-lg-9">
+              <div id="text-page" class="box">
+                <h1>Deut818 Systems Group</h1>
+               <p>Deut818 Systems (U) is the operational arm of Alp Systems HB(Sweden) whose main goal is to promote and implement technological transfer projects in Africa through partnerships with other European based companies with intrest in investing in Africa. The major areas of intrest include Integrated Systems, Sustainable Solutions, Transport and Logistics, Security surveillance, Access control, data analytics, Biometrics,forensics and facial recognition, tourism and infrastructure development.</p>
+                <h1>Our Team</h1>
+                <div class="row">
+                 
+                  {% for member in members %}
+                  <div class="col-md-4">
+                    <p class="text-center"><img src="{{member.profile.picture.url}}" alt="{{member.first_name}} {{member.last_name}}" class="rounded-circle img-fluid"></p>
+                    <p class="text-center" style="font-size:25px;"><strong>{{member.first_name}} {{ member.last_name}}</strong></p>
+                    <p class="text-center text-disabled">{{member.profile.position}}</p>
+                        <p class="text-center"><a href="mailto:{{member.email}}"><i class="fa fa-envelope"></i> {{member.email}}</a></p>
+                  </div>
+                   {% endfor %}
+                </div>
+              </div>
+            </div></center>
+            <!-- /.col-lg-9-->
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}

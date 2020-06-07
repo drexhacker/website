@@ -1,0 +1,128 @@
+[
+{
+    "model": "orders.order",
+    "pk": 1,
+    "fields": {
+        "user": 2,
+        "first_name": "tony",
+        "last_name": "krypton",
+        "email": "josfranklinm@gmail.com",
+        "address": "Eco Building",
+        "postal_code": "42 Kampala",
+        "city": "Kampala",
+        "created": "2020-05-29T11:20:59.053Z",
+        "updated": "2020-06-02T12:16:11.948Z",
+        "paid": false,
+        "delivered": false,
+        "recieved": false,
+        "braintree_id": "",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "first_name": "tony",
+        "last_name": "krypton",
+        "email": "josfranklinm@gmail.com",
+        "address": "Eco Building",
+        "postal_code": "42 Kampala",
+        "city": "Kampala",
+        "created": "2020-05-29T14:00:23.951Z",
+        "updated": "2020-06-02T12:15:45.755Z",
+        "paid": false,
+        "delivered": false,
+        "recieved": false,
+        "braintree_id": "",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 3,
+    "fields": {
+        "user": 2,
+        "first_name": "tony",
+        "last_name": "krypton",
+        "email": "josfranklinm@gmail.com",
+        "address": "Eco Building, Ndejje Rubeire rd",
+        "postal_code": "42 Kampala",
+        "city": "Kampala",
+        "created": "2020-05-29T15:23:36.398Z",
+        "updated": "2020-06-02T13:43:42.075Z",
+        "paid": true,
+        "delivered": true,
+        "recieved": false,
+        "braintree_id": "88fxyfh3",
+        "coupon": null,
+        "discount": 0
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 4,
+    "fields": {
+        "user": 3,
+        "first_name": "Joshua",
+        "last_name": "Franklin",
+        "email": "joshua.franklin.codes@gmail.com",
+        "address": "Eco Building, Ndejje Rubeire rd",
+        "postal_code": "P.O.Box 42",
+        "city": "Kampala, Uganda",
+        "created": "2020-05-29T19:25:28.060Z",
+        "updated": "2020-06-02T13:44:00.281Z",
+        "paid": true,
+        "delivered": true,
+        "recieved": false,
+        "braintree_id": "8n05v5vj",
+        "coupon": 1,
+        "discount": 20
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 5,
+    "fields": {
+        "user": 3,
+        "first_name": "Joshua",
+        "last_name": "Franklin",
+        "email": "joshua.franklin.codes@gmail.com",
+        "address": "Eco Building, Ndejje Rubeire rd",
+        "postal_code": "P.O.Box 42",
+        "city": "Kampala, Uganda",
+        "created": "2020-05-29T19:27:44.958Z",
+        "updated": "2020-06-02T12:14:50.199Z",
+        "paid": false,
+        "delivered": false,
+        "recieved": false,
+        "braintree_id": "",
+        "coupon": 1,
+        "discount": 20
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 6,
+    "fields": {
+        "user": 2,
+        "first_name": "tony",
+        "last_name": "krypton",
+        "email": "josfranklinm@gmail.com",
+        "address": "Eco Building, Ndejje Rubeire rd",
+        "postal_code": "42 Kampala",
+        "city": "Kampala",
+        "created": "2020-05-29T19:38:57.268Z",
+        "updated": "2020-06-02T13:42:46.680Z",
+        "paid": true,
+        "delivered": true,
+        "recieved": false,
+        "braintree_id": "p8wyj2s9",
+        "coupon": 1,
+        "discount": 20
+    }
+}
+]

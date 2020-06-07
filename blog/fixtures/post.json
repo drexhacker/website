@@ -1,0 +1,32 @@
+[
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "title": "Cable Transport Systems",
+        "image": "post_images/2020/05/30/images.jpg",
+        "slug": "cable-transport-systems2",
+        "author": 1,
+        "body": "Explore the Skies with Deut818 Systems Group",
+        "publish": "2020-05-30T09:25:42Z",
+        "created": "2020-05-30T09:29:38.546Z",
+        "updated": "2020-05-31T15:30:12.090Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "title": "Charles Bbaale",
+        "image": "post_images/2020/05/30/FB_IMG_1549276234126.jpg",
+        "slug": "charles-bbaale",
+        "author": 1,
+        "body": "Blsjj  j h ikb",
+        "publish": "2020-05-30T10:23:46Z",
+        "created": "2020-05-30T10:24:56.404Z",
+        "updated": "2020-05-31T15:30:43.793Z",
+        "status": "published"
+    }
+}
+]

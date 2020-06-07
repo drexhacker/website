@@ -1,0 +1,52 @@
+{% extends 'shop/base.html' %}
+{% load dsg static %}
+{% block title %}
+Frequently Asked Questions
+{% endblock %}
+{% block content %}
+ <div id="all">
+      <div id="content">
+        <div class="container">
+          <div class="row">
+          
+            <div class="col-lg-3">
+            
+              <!-- *** PAGES MENU END ***-->
+              <div class="banner"><a href="#"><img src="{% static 'shop/img/banner.jpg' %}" alt="sales 2014" class="img-fluid"></a></div>
+            </div>
+            <div class="col-lg-9">
+              <div id="contact" class="box">
+                <h1>Frequently asked questions</h1>
+                <p class="lead">Are you curious about something? Do you have some kind of problem with our products?</p>
+                <p>Please feel free to contact us, our customer service center is working for you 24/7.</p>
+                <hr>
+                <div id="accordion">
+                  <div class="card border-primary mb-3">
+                    <div id="headingOne" class="card-header p-0 border-0">
+                      <h4 class="mb-0"><a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="btn btn-primary d-block text-left rounded-0">1. What to do if I have still not received the order?</a></h4>
+                    </div>
+                    <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion" class="collapse show">
+                      <div class="card-body">
+                        <p>Incase you have not received your order please get your order ID sent to you in email after you placed that prder then contact us by sending your order ID for tracking purposes through the <a href="/contact">Support Center</a> or email us at <a href="mailto:support@deut818systems.com">support@deut818systems.com</a></p>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  <div class="card border-primary">
+                    <div id="headingThree" class="card-header p-0 border-0">
+                      <h4 class="mb-0"><a href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="btn btn-primary d-block text-left rounded-0">2. Do you send overseas?</a></h4>
+                    </div>
+                    <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordion" class="collapse">
+                      <div class="card-body">If you ask, the answer is yes. We deliver goods overseas worldwide via DHL International Company 	and through our agents all over the world</div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.accordion-->
+              </div>
+            </div>
+            <!-- /.col-lg-9-->
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}

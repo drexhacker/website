@@ -1,0 +1,18 @@
+[
+{
+    "model": "shop.category",
+    "pk": 1,
+    "fields": {
+        "name": "CCTV Cameras",
+        "slug": "cctv-cameras"
+    }
+},
+{
+    "model": "shop.category",
+    "pk": 2,
+    "fields": {
+        "name": "Cable Transport Systems",
+        "slug": "cable-transport-systems"
+    }
+}
+]
